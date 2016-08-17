@@ -5,7 +5,7 @@ gem 'rails', '5.0.0.1'
 gem 'bootstrap-datepicker-rails'
 gem 'bootstrap-sass'
 gem 'chardinjs-rails'
-gem 'filterrific' #, path: '../filterrific'
+gem 'filterrific', github: 'aryrabelo/filterrific'
 gem 'haml-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
@@ -31,7 +31,7 @@ group :development, :test do
 
   # supported database adapters
   # gem 'pg' # already specified in default group higher up
-  gem 'sqlite3'
-  gem 'mysql'
-  gem 'mysql2'
+  # gem 'sqlite3'
+  # gem 'mysql'
+  # gem 'mysql2'
 end
